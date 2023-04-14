@@ -1,3 +1,45 @@
+
+
+.Section_top{
+  width: 100%;
+  height: 100%;
+  
+ 
+  background-image: url('./assets/hero1.jpg');
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  /* animation: change 10s infinite ease-in-out; */
+}
+
+
+/* @keyframes change{
+  0%
+  {
+      background-image: url('./assets/hero1.jpg');
+  }
+  20%
+  {
+      background-image: url('./assets/jr-harris-afVzV0gvnpY-unsplash.jpg');
+  }
+  40%
+  {
+      background-image: url('./assets/eva-blue-4k-v1yGHoQ4-unsplash\ \(1\).jpg');
+  }
+  60%
+  {
+      background-image: url('./assets/maize.jpg');
+  }
+  80%
+  {
+      background-image: url('./assets/woamn\ 2.png');
+  }
+  100%
+  {
+      background-image: url('./assets/hero1.jpg');
+  }
+} */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +53,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
