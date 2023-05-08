@@ -5,42 +5,27 @@ import market2 from "../../assets/2.jpg";
 
 const BusinessTool = () => {
   return (
-    <div className='px-[8rem] mt-[12rem] flex justify-between '>
-      <div className='w-[30%]'>
-        <h1 className='text-[#00085A] font-medium text-3xl '>Business Tools</h1>
+    <div className='md:px-[8rem] px-[0rem] md:mt-[12rem] mt-[6rem] flex md:flex-row flex-col-reverse justify-between '>
+      <div className='md:w-[100%] md:px-0 px-5'>
+        <h1 className='text-[#00085A] font-medium text-3xl md:mt-0 mt-5'>Our Mission</h1>
         <p className='mt-5'>
-          We recognize that professionalization of informal trade requires
-          appropriate tooling that is fit for purpose. That's why we've built a
-          range of powerful business tools for our ecosystem of clients,
-          designed to streamline processes and improve efficiency.
+        At Cross, we are committed to supporting the growth and development of digital commerce in Africa. Our platform offers a robust infrastructure that enables businesses to compete in the global market and connect with customers across the continent.  We partner with local businesses and entrepreneurs to showcase their products and services on our platform and provide them with the tools and resources they need to succeed.We are dedicated to providing the best customer experience possible. 
         </p>
         <p className='mt-5'>
-          Sabi's digital marketplace provides a platform for businesses to
-          connect with distributors and producers to buy or sell their products
-          or services online. With a user-friendly interface and customizations
-          unique to the local environment, our marketplace makes it easy for
-          small businesses to expand their reach and unlock their potential.
+        Cross offers fast and reliable services, secure payment processing, and comprehensive data analytics to help businesses optimize their operations and grow their sales. Our team of experts is always available to provide support and guidance to our customers, ensuring that they get the most out of our platform.
         </p>
         <p className='mt-5'>
-          Sabi's digital marketplace provides a platform for businesses to
-          connect with distributors and producers to buy or sell their products
-          or services online. With a user-friendly interface and customizations
-          unique to the local environment, our marketplace makes it easy for
-          small businesses to expand their reach and unlock their potential.
+        Digital commerce is a key driver of this growth, as more and more Africans turn to online shopping to meet their needs and preferences. With a population of over 1.3 billion people and increasing internet and mobile penetration rates, Africa presents a vast and untapped opportunity for businesses looking to expand their reach.
         </p>
 
        
       </div>
-      <div className=' w-[60%]'>
-        {/* <div className=''>
-                <img src={maize}  alt='maize'/>
-        </div> */}
+      <div className=' md:w-[60%] h-full w-full'>
+       
         <div className=''>
           <img src={market2} alt='maize' />
         </div>
-        {/* <div className=''>
-                <img src={woamn2}  alt='maize'/>
-        </div> */}
+      
       </div>
     </div>
   );
