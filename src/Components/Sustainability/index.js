@@ -2,9 +2,9 @@ import React from 'react'
 import sustain from '../../assets/3.jpg'
 const Sustainability = () => {
   return (
-    <div className='bg-cover  md:mt-[8rem] mt-[4rem] flex h-[75vh] md:h-[60vh] bg-center w-full '
+    <div className='bg-cover  md:mt-[8rem] mt-[4rem] flex h-[85vh] md:h-[60vh] bg-center w-full '
     style={{ backgroundImage: `url(${sustain})` }}>
-        <div className='md:px-[8rem] px-[1rem] bg-[rgba(0,0,0,0.6)] w-screen h-[75vh] md:h-[60vh] py-[5rem] flex md:flex-row flex-col justify-between '>
+        <div className='md:px-[8rem] px-[1rem] bg-[rgba(0,0,0,0.6)] w-screen h-[85vh] md:h-[60vh] py-[5rem] flex md:flex-row flex-col justify-between '>
             <div className='w-[30%] md:py-2 py-0'>
             <h1 className='text-white font-bold text-3xl '>Sustainability</h1>
             </div>

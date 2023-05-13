@@ -2,7 +2,7 @@ import React from 'react'
 import heroimg from "../../assets/hero1.jpg";
 const AboutComponent = () => {
   return (
-    <div className=' md:px-[8rem] px-[0rem] md:mt-20  mt-5 flex  md:flex-row flex-col'>
+    <div className=' md:px-[8rem] px-[0rem] md:mt-20  mt-0 flex  md:flex-row flex-col'>
         <div className='md:w-[60%] w-full' >
             <img src={heroimg} alt=''/>
         </div>
